@@ -41,13 +41,11 @@ class BinCollectionViewController: UIViewController {
     
     // go next the viewcontroller
     @IBAction func nextbtn(_ sender: Any) {
-        //get database
-        let bindata = BinData(context: DatabaseManager.persistentContainer.viewContext)
         
         if(cycleIndex == 0){
             
             var date = self.bindate
-            let enddate = Calendar.current.date(byAdding: .day, value: 120, to: date)!
+            let enddate = Calendar.current.date(byAdding: .day, value: 121, to: date)!
             
             while date < enddate {
                 let bindata = BinData(context: DatabaseManager.persistentContainer.viewContext)
@@ -65,16 +63,12 @@ class BinCollectionViewController: UIViewController {
             var dates = [Date]()
             var date = self.bindate
             dates.append(date)
-            let enddate = Calendar.current.date(byAdding: .day, value: 29, to: date)!
+            let enddate = Calendar.current.date(byAdding: .day, value: 121, to: date)!
             
             while date < enddate {
                 date = Calendar.current.date(byAdding: .day, value: 14, to: date)!
                 dates.append(date)
             }
-            
-            print(dates[0])
-            print(dates[dates.count - 1])
-            print(dates.count)
             
             for i in 0...dates.count - 1{
                 let bindata = BinData(context: DatabaseManager.persistentContainer.viewContext)
@@ -91,13 +85,14 @@ class BinCollectionViewController: UIViewController {
         if(cycleIndex == 2){
             var dates = [Date]()
             var date = self.bindate
-            let enddate = Calendar.current.date(byAdding: .day, value: 120, to: date)!
+            let enddate = Calendar.current.date(byAdding: .day, value: 121, to: date)!
             
             while date < enddate {
                 date = Calendar.current.date(byAdding: .day, value: 21, to: date)!
                 dates.append(date)
             }
             for i in 1...dates.count - 1{
+                let bindata = BinData(context: DatabaseManager.persistentContainer.viewContext)
                 bindata.bincycle = String(self.cycleIndex)
                 bindata.binDate = dates[i]
                 bindata.colourIndex = String(self.selecColourIndex)
@@ -111,13 +106,14 @@ class BinCollectionViewController: UIViewController {
         if(cycleIndex == 3){
             var dates = [Date]()
             var date = self.bindate
-            let enddate = Calendar.current.date(byAdding: .day, value: 120, to: date)!
+            let enddate = Calendar.current.date(byAdding: .day, value: 121, to: date)!
             
             while date < enddate {
                 date = Calendar.current.date(byAdding: .day, value: 28, to: date)!
                 dates.append(date)
             }
             for i in 1...dates.count - 1 {
+                let bindata = BinData(context: DatabaseManager.persistentContainer.viewContext)
                 bindata.bincycle = String(self.cycleIndex)
                 bindata.binDate = dates[i]
                 bindata.colourIndex = String(self.selecColourIndex)
