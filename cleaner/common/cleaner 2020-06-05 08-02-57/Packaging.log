@@ -1,0 +1,213 @@
+2020-06-05 05:02:53 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fda25abc9b0; archive(resolved)='<IDEArchive: 0x7fda3c401b40>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fda25abc9b0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fda25c1fc40; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda254c00d0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda25c05cb0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda251bd5e0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda2265fee0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda227b78d0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda40e9da60; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda25be7800; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fda34beac70; teamID='FN9MKFTJ25', teamName='Alexander Murray', teamType='Individual', username='thelordmurray@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fda3f6359f0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='(null)'>
+	<IDEDistributionContext: 0x7fda25ac2cf0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='(null)'>
+	<IDEDistributionContext: 0x7fda25bcf040; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fda33e95890>', team='(null)'>
+	<IDEDistributionContext: 0x7fda259d83e0; archive = '<IDEArchive: 0x7fda3c401b40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fda25abc9b0>
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionCopyItemStep
+2020-06-05 05:02:53 +0000  Running /usr/bin/ditto '-V' '/Users/admin/Library/Developer/Xcode/Archives/2020-06-05/cleaner 05-06-2020, 08.02.xcarchive/Products/Applications/What colour bin?.app' '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root/Payload/What colour bin?.app'
+2020-06-05 05:02:53 +0000  >>> Copying /Users/admin/Library/Developer/Xcode/Archives/2020-06-05/cleaner 05-06-2020, 08.02.xcarchive/Products/Applications/What colour bin?.app 
+2020-06-05 05:02:53 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-06-05 05:02:53 +0000  9603 bytes for ./_CodeSignature/CodeResources
+2020-06-05 05:02:53 +0000  copying file ./What colour bin? ... 
+2020-06-05 05:02:53 +0000  973696 bytes for ./What colour bin?
+copying file ./BinTableViewCell.nib ... 
+2020-06-05 05:02:53 +0000  6010 bytes for ./BinTableViewCell.nib
+copying file ./cleaner.momd/VersionInfo.plist ... 
+2020-06-05 05:02:53 +0000  198 bytes for ./cleaner.momd/VersionInfo.plist
+copying file ./cleaner.momd/cleaner.mom ... 
+1549 bytes for ./cleaner.momd/cleaner.mom
+copying file ./cleaner.momd/cleaner.omo ... 
+2600 bytes for ./cleaner.momd/cleaner.omo
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/Main.storyboardc/BkC-b2-dwm-view-lLq-Cn-In8.nib ... 
+2020-06-05 05:02:53 +0000  7181 bytes for ./Base.lproj/Main.storyboardc/BkC-b2-dwm-view-lLq-Cn-In8.nib
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/Main.storyboardc/JjR-ge-khM-view-U0v-2J-x0n.nib ... 
+2020-06-05 05:02:53 +0000  10070 bytes for ./Base.lproj/Main.storyboardc/JjR-ge-khM-view-U0v-2J-x0n.nib
+copying file ./Base.lproj/Main.storyboardc/gMR-oX-XQU-view-qXc-8I-Yzs.nib ... 
+2020-06-05 05:02:53 +0000  11724 bytes for ./Base.lproj/Main.storyboardc/gMR-oX-XQU-view-qXc-8I-Yzs.nib
+copying file ./Base.lproj/Main.storyboardc/binWeek.nib ... 
+2020-06-05 05:02:53 +0000  1433 bytes for ./Base.lproj/Main.storyboardc/binWeek.nib
+copying file ./Base.lproj/Main.storyboardc/binColour.nib ... 
+2020-06-05 05:02:53 +0000  1457 bytes for ./Base.lproj/Main.storyboardc/binColour.nib
+copying file ./Base.lproj/Main.storyboardc/binSetup.nib ... 
+2020-06-05 05:02:53 +0000  1459 bytes for ./Base.lproj/Main.storyboardc/binSetup.nib
+copying file ./Base.lproj/Main.storyboardc/binReminder.nib ... 
+2020-06-05 05:02:53 +0000  1437 bytes for ./Base.lproj/Main.storyboardc/binReminder.nib
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/Main.storyboardc/96F-Jp-DOj-view-Law-CQ-nAg.nib ... 
+2020-06-05 05:02:53 +0000  12839 bytes for ./Base.lproj/Main.storyboardc/96F-Jp-DOj-view-Law-CQ-nAg.nib
+copying file ./Base.lproj/Main.storyboardc/binTable.nib ... 
+2020-06-05 05:02:53 +0000  1175 bytes for ./Base.lproj/Main.storyboardc/binTable.nib
+copying file ./Base.lproj/Main.storyboardc/ZcC-bs-SaT-view-tlk-di-BsA.nib ... 
+2020-06-05 05:02:53 +0000  7099 bytes for ./Base.lproj/Main.storyboardc/ZcC-bs-SaT-view-tlk-di-BsA.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2020-06-05 05:02:53 +0000  1223 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/aKg-pm-26I-view-tOS-6N-GWZ.nib ... 
+2020-06-05 05:02:53 +0000  7452 bytes for ./Base.lproj/Main.storyboardc/aKg-pm-26I-view-tOS-6N-GWZ.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-06-05 05:02:53 +0000  6717 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/binCollection.nib ... 
+2020-06-05 05:02:53 +0000  1440 bytes for ./Base.lproj/Main.storyboardc/binCollection.nib
+copying file ./Base.lproj/Main.storyboardc/mainView.nib ... 
+2020-06-05 05:02:53 +0000  1449 bytes for ./Base.lproj/Main.storyboardc/mainView.nib
+copying file ./Base.lproj/Main.storyboardc/LE0-go-sET-view-4uJ-hr-pre.nib ... 
+2020-06-05 05:02:53 +0000  8555 bytes for ./Base.lproj/Main.storyboardc/LE0-go-sET-view-4uJ-hr-pre.nib
+copying file ./Base.lproj/Main.storyboardc/binNotifi.nib ... 
+2020-06-05 05:02:53 +0000  1432 bytes for ./Base.lproj/Main.storyboardc/binNotifi.nib
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/Main.storyboardc/fFB-g4-5e1-view-LlK-8e-Jjq.nib ... 
+2020-06-05 05:02:53 +0000  8340 bytes for ./Base.lproj/Main.storyboardc/fFB-g4-5e1-view-LlK-8e-Jjq.nib
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-06-05 05:02:53 +0000  477 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2020-06-05 05:02:53 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-06-05 05:02:53 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2020-06-05 05:02:53 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-06-05 05:02:53 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-05 05:02:53 +0000  copying file ./Assets.car ... 
+2020-06-05 05:02:53 +0000  3255280 bytes for ./Assets.car
+copying file ./embedded.mobileprovision ... 
+2020-06-05 05:02:53 +0000  7408 bytes for ./embedded.mobileprovision
+2020-06-05 05:02:53 +0000  copying file ./Info.plist ... 
+1586 bytes for ./Info.plist
+2020-06-05 05:02:53 +0000  copying file ./PkgInfo ... 
+2020-06-05 05:02:53 +0000  8 bytes for ./PkgInfo
+2020-06-05 05:02:53 +0000  /usr/bin/ditto exited with 0
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-06-05 05:02:53 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-06-05 05:02:53 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-06-05 05:02:53 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionSymbolsStep
+2020-06-05 05:02:53 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionAppThinningStep
+2020-06-05 05:02:53 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionArchThinningStep
+2020-06-05 05:02:53 +0000  Running /Users/admin/Public/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root/Payload/What colour bin?.app/What colour bin?' '-verify_arch' 'arm64e'
+2020-06-05 05:02:53 +0000  /Users/admin/Public/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-06-05 05:02:53 +0000  Skipping architecture thinning for item "What colour bin?" because arch "arm64e" wasn't found
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionODRStep
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-06-05 05:02:53 +0000  Running /usr/bin/xattr '-crs' '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root/Payload/What colour bin?.app'
+2020-06-05 05:02:53 +0000  /usr/bin/xattr exited with 0
+2020-06-05 05:02:53 +0000  Processing step: IDEDistributionCodesignStep
+2020-06-05 05:02:53 +0000  Entitlements for <IDEDistributionItem: 0x7fda25b639b0; bundleID='australia.cleaner', path='<DVTFilePath:0x7fda25b30de0:'/Users/admin/Library/Developer/Xcode/Archives/2020-06-05/cleaner 05-06-2020, 08.02.xcarchive/Products/Applications/What colour bin?.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fda25c31830; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fda24f75ba0; name='Apple Development: Alexander Murray (F47327BVVT)', hash='7BAB631CF6DE07F85ECC0C54FAA3252674D2531C', serialNumber='152C0AD2E956CF46', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-02 09:37:25 +0000''>', entitlements='{
+    "application-identifier" = "FN9MKFTJ25.australia.cleaner";
+    "com.apple.developer.team-identifier" = FN9MKFTJ25;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "FN9MKFTJ25.australia.cleaner"
+    );
+}', teamID='FN9MKFTJ25', identifier='australia.cleaner', executablePath='<DVTFilePath:0x7fda257a5da0:'/Users/admin/Library/Developer/Xcode/Archives/2020-06-05/cleaner 05-06-2020, 08.02.xcarchive/Products/Applications/What colour bin?.app/What colour bin?'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "FN9MKFTJ25.australia.cleaner";
+    "com.apple.developer.team-identifier" = FN9MKFTJ25;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "FN9MKFTJ25.australia.cleaner"
+    );
+}
+2020-06-05 05:02:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fda25b639b0; bundleID='australia.cleaner', path='<DVTFilePath:0x7fda25b30de0:'/Users/admin/Library/Developer/Xcode/Archives/2020-06-05/cleaner 05-06-2020, 08.02.xcarchive/Products/Applications/What colour bin?.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fda25c31830; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fda25192b60; name='Apple Development: Alexander Murray (F47327BVVT)', hash='7BAB631CF6DE07F85ECC0C54FAA3252674D2531C', serialNumber='152C0AD2E956CF46', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-06-02 09:37:25 +0000''>', entitlements='{
+    "application-identifier" = "FN9MKFTJ25.australia.cleaner";
+    "com.apple.developer.team-identifier" = FN9MKFTJ25;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "FN9MKFTJ25.australia.cleaner"
+    );
+}', teamID='FN9MKFTJ25', identifier='australia.cleaner', executablePath='<DVTFilePath:0x7fda257a5da0:'/Users/admin/Library/Developer/Xcode/Archives/2020-06-05/cleaner 05-06-2020, 08.02.xcarchive/Products/Applications/What colour bin?.app/What colour bin?'>', hardenedRuntime='0'>'> to: /var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/entitlements~~~9To3Zs
+2020-06-05 05:02:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7BAB631CF6DE07F85ECC0C54FAA3252674D2531C' '--entitlements' '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/entitlements~~~9To3Zs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root/Payload/What colour bin?.app'
+2020-06-05 05:02:54 +0000  /var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root/Payload/What colour bin?.app: signed app bundle with Mach-O thin (arm64) [australia.cleaner]
+2020-06-05 05:02:54 +0000  
+2020-06-05 05:02:54 +0000  /usr/bin/codesign exited with 0
+2020-06-05 05:02:54 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-06-05 05:02:54 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-06-05 05:02:54 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-06-05 05:02:54 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root' '/var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Packages/cleaner.ipa'
+2020-06-05 05:02:54 +0000  >>> Copying /var/folders/pd/f5zx6fp16xsdz40l4l8z13z00000gn/T/XcodeDistPipeline.~~~QIuyef/Root 
+2020-06-05 05:02:54 +0000  copying file ./Payload/What colour bin?.app/_CodeSignature/CodeResources ... 
+2020-06-05 05:02:54 +0000  9603 bytes for ./Payload/What colour bin?.app/_CodeSignature/CodeResources
+copying file ./Payload/What colour bin?.app/What colour bin? ... 
+2020-06-05 05:02:54 +0000  230656 bytes for ./Payload/What colour bin?.app/What colour bin?
+copying file ./Payload/What colour bin?.app/BinTableViewCell.nib ... 
+2020-06-05 05:02:54 +0000  6010 bytes for ./Payload/What colour bin?.app/BinTableViewCell.nib
+copying file ./Payload/What colour bin?.app/cleaner.momd/VersionInfo.plist ... 
+198 bytes for ./Payload/What colour bin?.app/cleaner.momd/VersionInfo.plist
+copying file ./Payload/What colour bin?.app/cleaner.momd/cleaner.mom ... 
+2020-06-05 05:02:54 +0000  1549 bytes for ./Payload/What colour bin?.app/cleaner.momd/cleaner.mom
+copying file ./Payload/What colour bin?.app/cleaner.momd/cleaner.omo ... 
+2600 bytes for ./Payload/What colour bin?.app/cleaner.momd/cleaner.omo
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/BkC-b2-dwm-view-lLq-Cn-In8.nib ... 
+7181 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/BkC-b2-dwm-view-lLq-Cn-In8.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/JjR-ge-khM-view-U0v-2J-x0n.nib ... 
+2020-06-05 05:02:54 +0000  10070 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/JjR-ge-khM-view-U0v-2J-x0n.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/gMR-oX-XQU-view-qXc-8I-Yzs.nib ... 
+2020-06-05 05:02:54 +0000  11724 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/gMR-oX-XQU-view-qXc-8I-Yzs.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binWeek.nib ... 
+2020-06-05 05:02:54 +0000  1433 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binWeek.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binColour.nib ... 
+2020-06-05 05:02:54 +0000  1457 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binColour.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binSetup.nib ... 
+2020-06-05 05:02:54 +0000  1459 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binSetup.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binReminder.nib ... 
+1437 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binReminder.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/96F-Jp-DOj-view-Law-CQ-nAg.nib ... 
+2020-06-05 05:02:54 +0000  12839 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/96F-Jp-DOj-view-Law-CQ-nAg.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binTable.nib ... 
+2020-06-05 05:02:54 +0000  1175 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binTable.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/ZcC-bs-SaT-view-tlk-di-BsA.nib ... 
+2020-06-05 05:02:54 +0000  7099 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/ZcC-bs-SaT-view-tlk-di-BsA.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2020-06-05 05:02:54 +0000  1223 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/aKg-pm-26I-view-tOS-6N-GWZ.nib ... 
+2020-06-05 05:02:54 +0000  7452 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/aKg-pm-26I-view-tOS-6N-GWZ.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2020-06-05 05:02:54 +0000  6717 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binCollection.nib ... 
+2020-06-05 05:02:54 +0000  1440 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binCollection.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/mainView.nib ... 
+2020-06-05 05:02:54 +0000  1449 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/mainView.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/LE0-go-sET-view-4uJ-hr-pre.nib ... 
+2020-06-05 05:02:54 +0000  8555 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/LE0-go-sET-view-4uJ-hr-pre.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binNotifi.nib ... 
+2020-06-05 05:02:54 +0000  1432 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/binNotifi.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/fFB-g4-5e1-view-LlK-8e-Jjq.nib ... 
+2020-06-05 05:02:54 +0000  8340 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/fFB-g4-5e1-view-LlK-8e-Jjq.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-06-05 05:02:54 +0000  477 bytes for ./Payload/What colour bin?.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/What colour bin?.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1197 bytes for ./Payload/What colour bin?.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2020-06-05 05:02:54 +0000  copying file ./Payload/What colour bin?.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+896 bytes for ./Payload/What colour bin?.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/What colour bin?.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/What colour bin?.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-06-05 05:02:54 +0000  copying file ./Payload/What colour bin?.app/Assets.car ... 
+2020-06-05 05:02:54 +0000  3255280 bytes for ./Payload/What colour bin?.app/Assets.car
+copying file ./Payload/What colour bin?.app/embedded.mobileprovision ... 
+2020-06-05 05:02:54 +0000  7408 bytes for ./Payload/What colour bin?.app/embedded.mobileprovision
+copying file ./Payload/What colour bin?.app/Info.plist ... 
+1586 bytes for ./Payload/What colour bin?.app/Info.plist
+copying file ./Payload/What colour bin?.app/PkgInfo ... 
+2020-06-05 05:02:54 +0000  8 bytes for ./Payload/What colour bin?.app/PkgInfo
+2020-06-05 05:02:54 +0000  /usr/bin/ditto exited with 0
+2020-06-05 05:02:54 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-06-05 05:02:54 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-06-05 05:02:54 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-06-05 05:02:54 +0000  Processing step: IDEDistributionCreateManifestStep

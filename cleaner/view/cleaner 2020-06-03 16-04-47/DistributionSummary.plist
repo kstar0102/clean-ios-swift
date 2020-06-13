@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cleaner.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7BAB631CF6DE07F85ECC0C54FAA3252674D2531C</string>
+				<key>dateExpires</key>
+				<string>02/06/2021</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>FN9MKFTJ25.australia.cleaner</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>FN9MKFTJ25</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>FN9MKFTJ25.australia.cleaner</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>What colour bin?.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f17f0f6c-b206-4dc6-81a7-225ce5013077</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: australia.cleaner</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>FN9MKFTJ25</string>
+				<key>name</key>
+				<string>Alexander Murray</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
